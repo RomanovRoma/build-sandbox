@@ -5,6 +5,7 @@ class App {
 }
 
 const app = new App();
-app.run()
+app
+  .run()
   .then(() => console.log("done"))
-  .catch(() => console.log('Error!'))
+  .catch(() => console.log("Error!"));
