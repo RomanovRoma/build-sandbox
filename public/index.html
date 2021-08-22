@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World</title>
-  <script defer src="main.js"></script></head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
   <body>
     <div>
       Built at: 
-      2021-08-22T09:28:26.923Z
+      <%= htmlWebpackPlugin.options.buildTime %>
     </div>
     <div id="root"></div>
   </body>
